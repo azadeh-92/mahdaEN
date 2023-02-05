@@ -177,6 +177,17 @@ body {
     left: 7px;
   }
   .stepIcon {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
+}
+
+.makebig {
+  font-size: 38px;
+}
+.al {
+  padding-bottom: 2.8em;
+}
+.thirdpage img {
+  margin-top: 20px;
+  width: 90px;
 }
