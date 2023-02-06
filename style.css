@@ -179,6 +179,9 @@ body {
   .stepIcon {
     margin-bottom: 70px;
   }
+  p {
+    font-weight: 200;
+  }
 }
 
 .makebig {
@@ -190,4 +193,55 @@ body {
 .thirdpage img {
   margin-top: 20px;
   width: 90px;
+}
+.thirdpage {
+  background: url(/images/bg-n.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+.cols {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-column-gap: 10px;
+  text-align: center;
+}
+.oneFive {
+  grid-column: 1 / span 6; /* 2 x 6 */
+}
+
+.twoFive {
+  grid-column: 7 / span 6; /* 3 x 6 */
+}
+.threeFive {
+  grid-column: 13 / span 6;
+}
+.fourFive {
+  grid-column: 19 / span 6;
+}
+.five {
+  grid-column: 25 / span 6;
+}
+.furthpage h3 {
+  font-size: 24px;
+}
+.furthpage img {
+  width: 70px;
+}
+
+.sameh {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  border-spacing: 10px;
+}
+
+.child {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+  width: 20%;
+}
+.makehalf {
+  margin: auto;
+  max-width: 70%;
 }

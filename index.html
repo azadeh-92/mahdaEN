@@ -56,11 +56,11 @@
           />
         </div>
       </div>
-      <div class="secondpage">
-        <h2 class="pt-3 ps-4">Pipeline</h2>
+      <div class="secondpage pt-3">
+        <h2 class="pt-5 ps-4">Pipeline</h2>
         <div class="row">
           <div class="col-sm-6">
-            <hr class="border-4 opacity-100 ms-3" />
+            <hr class="border-4 opacity-100 ms-3 pb-2" />
           </div>
         </div>
         <p class="ms-3">
@@ -69,64 +69,351 @@
         </p>
         <br />
         <div class="steps">
-        <div class="row  mb-3">
-          <div class="col-sm-3 num" align="center">
-            <img src="/images/number-1.png" class="img-fluid d-block number " alt="1" />
-            <a href="#" class="btn"><h3 class="step step1 d-inline-flex">Order Generation</h3></a>
-            <img src="/images/1.png" class="img-fluid d-block  stepIcon stepIcon1" alt="1" />
-          </div>
+          <div class="row mb-3">
+            <div class="col-sm-3 num" align="center">
+              <img
+                src="/images/number-1.png"
+                class="img-fluid d-block number"
+                alt="1"
+              />
+              <a href="#" class="btn"
+                ><h3 class="step step1 d-inline-flex">Order Generation</h3></a
+              >
+              <img
+                src="/images/1.png"
+                class="img-fluid d-block stepIcon stepIcon1"
+                alt="1"
+              />
+            </div>
 
-          <div class="col-sm-3  num " align="center">
-        <img src="/images/number-2.png" alt="1" class="img-fluid d-block number" />
-           <a href="#" class="btn">   <h3 class="step step2 d-inline-flex">Order Execution</h3></a>
-            <img src="/images/2.png" alt="1" class="img-fluid d-block stepIcon stepIcon2" />
-          </div>
-          <div class="col-sm-3 num" align="center">
-            <img src="/images/number-3.png" class="img-fluid d-block number" alt="1" />
-           <a href="#" class="btn"> <h3 class="step step3 d-inline-flex">Bet Sizing</h3></a>
-            <img src="/images/3.png" class="img-fluid d-block stepIcon stepIcon3" alt="1" />
-          </div>
-          <div class="col-sm-3 num" align="center">
-            <img src="/images/number-4.png" class="img-fluid d-block number " alt="1" />
-           <a href="#" class="btn"><h3 class="step step4 d-inline-flex">Exit Strategy</h3></a> 
-            <img src="/images/4.png" class="img-fluid d-block stepIcon stepIcon4" alt="1" />
-          </div>
-        </div>
-        </div>
-
-</div>
-<div class="thirdpage">
-<h2 class="pt-3 ps-4">Order Generation</h2>
-        <div class="row">
-          <div class="col-sm-6">
-            <hr class="border-4 opacity-100 ms-3 pb-2" />
-          </div>
-        </div>
-            <div class="steps">
-        <div class="row  mb-3">
-          <div class="col-md-4 num" align="center">
-            <img src="/images/3-1.png" class="img-fluid d-block number " alt="1" />
-           <div class="border border-light p-3"><h3 class="step step1 d-inline-flex">Coins selection</h3>
-           <p >First, 65 coins are given to the coin selection model in terms of the largest market size. Every 12 hours, the model selects suitable candidate coins for trading in the next 12 hours based on their recent movement/trend and volatility.</p>
-           </div>
-          </div>
-
-          <div class="col-md-4  num " align="center">
-        <img src="/images/3-2.png" alt="1" class="img-fluid d-block number" />
-           <div class="border border-light p-3"> <h3 class="step step2 d-inline-flex">Open a position</h3>
-            <p >To generate an order on the selected coins, the AI model checks the past state of the coin and the market situation. If the coin momentum triggers the threshold of the risk to return, the order is sent to the order opening section.</p>
+            <div class="col-sm-3 num" align="center">
+              <img
+                src="/images/number-2.png"
+                alt="1"
+                class="img-fluid d-block number"
+              />
+              <a href="#" class="btn">
+                <h3 class="step step2 d-inline-flex">Order Execution</h3></a
+              >
+              <img
+                src="/images/2.png"
+                alt="1"
+                class="img-fluid d-block stepIcon stepIcon2"
+              />
+            </div>
+            <div class="col-sm-3 num" align="center">
+              <img
+                src="/images/number-3.png"
+                class="img-fluid d-block number"
+                alt="1"
+              />
+              <a href="#" class="btn">
+                <h3 class="step step3 d-inline-flex">Bet Sizing</h3></a
+              >
+              <img
+                src="/images/3.png"
+                class="img-fluid d-block stepIcon stepIcon3"
+                alt="1"
+              />
+            </div>
+            <div class="col-sm-3 num" align="center">
+              <img
+                src="/images/number-4.png"
+                class="img-fluid d-block number"
+                alt="1"
+              />
+              <a href="#" class="btn"
+                ><h3 class="step step4 d-inline-flex">Exit Strategy</h3></a
+              >
+              <img
+                src="/images/4.png"
+                class="img-fluid d-block stepIcon stepIcon4"
+                alt="1"
+              />
             </div>
           </div>
-          <div class="col-md-4 num" align="center">
-            <img src="/images/3-3.png" class="img-fluid d-block number" alt="1" />
-          
-            <p class="border border-light pt-5  ps-3 pe-3 mb-0 al">Every <span class="makebig">1 hour</span> <br> , the model checks more than 500 parameters on the selected coins and decides whether to enter the market or not. According to the state of the coin, the appropriate entry point to open the position is determined.</p>
-          </div>
-         
         </div>
+      </div>
+      <div class="thirdpage pt-5">
+        <h2 class="pt-3 ps-4">Order Generation</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <hr class="border-4 opacity-100 ms-3 pb-5" />
+          </div>
+        </div>
+        <div class="steps">
+          <div class="row mb-3">
+            <div class="col-md-4 num" align="center">
+              <img
+                src="/images/3-1.png"
+                class="img-fluid d-block number"
+                alt="1"
+              />
+              <div class="border border-light p-3">
+                <h3 class="step step1 d-inline-flex">Coins selection</h3>
+                <p>
+                  First, 65 coins are given to the coin selection model in terms
+                  of the largest market size. Every 12 hours, the model selects
+                  suitable candidate coins for trading in the next 12 hours
+                  based on their recent movement/trend and volatility.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 num" align="center">
+              <img
+                src="/images/3-2.png"
+                alt="1"
+                class="img-fluid d-block number"
+              />
+              <div class="border border-light p-3">
+                <h3 class="step step2 d-inline-flex">Open a position</h3>
+                <p>
+                  To generate an order on the selected coins, the AI model
+                  checks the past state of the coin and the market situation. If
+                  the coin momentum triggers the threshold of the risk to
+                  return, the order is sent to the order opening section.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 num" align="center">
+              <img
+                src="/images/3-3.png"
+                class="img-fluid d-block number"
+                alt="1"
+              />
+
+              <p class="border border-light pt-3 ps-3 pe-3 mb-0 al">
+                Every <span class="makebig">1 hour</span> <br />
+                , the model checks more than 500 parameters on the selected
+                coins and decides whether to enter the market or not. According
+                to the state of the coin, the appropriate entry point to open
+                the position is determined.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="furthpage">
+        <h2 class="pt-3 ps-4">Order Generation Steps</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <hr class="border-4 opacity-100 ms-3 pb-5" />
+          </div>
+        </div>
+        <div class=". d-none d-md-block">
+          <div class="cols">
+            <div class="oneFive">
+              <h3>1. AI Technologies</h3>
+              <div class="img41 justify-content">
+                <img
+                  src="/images/41.png"
+                  alt=" Artificial Intelligence"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="twoFive">
+              <h3>2. Data Acquisition</h3>
+
+              <div class="img42 justify-content">
+                <img
+                  src="/images/42.png"
+                  alt=" Artificial Intelligence"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="threeFive">
+              <h3>3. Data Cleaning Tool</h3>
+
+              <div class="justify-content img43">
+                <img
+                  src="/images/43.png"
+                  alt=" Artificial Intelligence"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="fourFive">
+              <h3>4. MAHDA ML tool</h3>
+
+              <div class="img44 justify-content">
+                <img
+                  src="/images/44.png"
+                  alt=" Artificial Intelligence"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="five">
+              <h3>5. Backtest Technology</h3>
+              <div class="img45 justify-content">
+                <img
+                  src="/images/45.png"
+                  alt=" Artificial Intelligence"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sameh">
+            <div class="child p-2 rounded border text-center">
+              <p>
+                Since our strategies are completely systematic, we have
+                developed most of our investment technologies in-house. This
+                makes it possible to control the quality of execution and meet
+                the requirements of our trading algorithms.These internal
+                automated tools help our quantitative research team quickly and
+                efficiently identify new sources of trend in large datasets.
+              </p>
+            </div>
+            <div class="child p-2 rounded border text-center">
+              <p>
+                The first step in deploying a new quantitative investment
+                strategy is data acquisition. To support our AI model to find a
+                good price level to generate orders, we use big data, browsing
+                multiple datasets from different areas. We deliver 500 factors
+                to the AI model as input.
+              </p>
+            </div>
+
+            <div class="child p-2 border rounded text-center">
+              <p>
+                Since we are using different sources of data, we may end up with
+                unstructured format that is not suitable for the AI models, so
+                data needs to be cleaned. Our Data team has implemented various
+                automated tools to support big data that need to be cleaned up
+                and checked for potential errors.
+              </p>
+            </div>
+
+            <div class="child p-2 border rounded text-center">
+              <p>
+                Once the data is cleaned, our AI model begins to explore the
+                data. Carbon has six sub-models including two deep neural
+                networks and four classic machine learning algorithms. Carbon
+                creates an ensemble learning framework in order to improve the
+                accuracy and enhance the return. As a result, Carbon generates
+                Buy, Sell, and Hold signals on each coin.
+              </p>
+            </div>
+
+            <div class="child p-2 border rounded text-center">
+              <p>
+                After discovering new sources of alpha signal, our researchers
+                conduct backtests that span long historical data to increase the
+                likelihood of finding reliable signals.Our quantitative backtest
+                model requires advanced algorithms and sufficient processing
+                power to complete their tests as quickly as possible.
+              </p>
+            </div>
+          </div>
         </div>
 
-        
-</div>
+        <div class="row d-md-none text-center imgS">
+          <div class="col-md-4">
+            <h3>
+              1. AI Technologies
+              <img
+                src="/images/41.png"
+                alt=" Artificial Intelligence"
+                class="img-fluid"
+              />
+            </h3>
+            <div class="p-2 makehalf mb-5 rounded border text-center">
+              <p>
+                Since our strategies are completely systematic, we have
+                developed most of our investment technologies in-house. This
+                makes it possible to control the quality of execution and meet
+                the requirements of our trading algorithms.These internal
+                automated tools help our quantitative research team quickly and
+                efficiently identify new sources of trend in large datasets.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>
+              <img
+                src="/images/42.png"
+                alt=" Artificial Intelligence"
+                class="img-fluid"
+              />
+              2. Data Acquisition
+            </h3>
+            <div class="p-2 makehalf mb-5 rounded border text-center">
+              <p>
+                The first step in deploying a new quantitative investment
+                strategy is data acquisition. To support our AI model to find a
+                good price level to generate orders, we use big data, browsing
+                multiple datasets from different areas. We deliver 500 factors
+                to the AI model as input.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>
+              3. Data Cleaning
+              <img
+                src="/images/43.png"
+                alt=" Artificial Intelligence"
+                class="img-fluid"
+              />
+            </h3>
+            <div class="p-2 makehalf mb-5 border rounded text-center">
+              <p>
+                Since we are using different sources of data, we may end up with
+                unstructured format that is not suitable for the AI models, so
+                data needs to be cleaned. Our Data team has implemented various
+                automated tools to support big data that need to be cleaned up
+                and checked for potential errors.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>
+              <img
+                src="/images/44.png"
+                alt=" Artificial Intelligence"
+                class="img-fluid d-inline"
+              />
+              4. Carbon: MAHDA ML tool
+            </h3>
+            <div class="p-2 makehalf mb-5 border rounded text-center">
+              <p>
+                Once the data is cleaned, our AI model begins to explore the
+                data. Carbon has six sub-models including two deep neural
+                networks and four classic machine learning algorithms. Carbon
+                creates an ensemble learning framework in order to improve the
+                accuracy and enhance the return. As a result, Carbon generates
+                Buy, Sell, and Hold signals on each coin.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>
+              5. Backtest Technology
+              <img
+                src="/images/45.png"
+                alt=" Artificial Intelligence"
+                class="img-fluid"
+              />
+            </h3>
+
+            <div class="p-2 makehalf mb-5 border rounded text-center">
+              <p>
+                After discovering new sources of alpha signal, our researchers
+                conduct backtests that span long historical data to increase the
+                likelihood of finding reliable signals.Our quantitative backtest
+                model requires advanced algorithms and sufficient processing
+                power to complete their tests as quickly as possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+<!-- grid-template-columns: repeat(3, 1fr); -->
