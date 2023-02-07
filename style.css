@@ -5,20 +5,37 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   --base-color: #00183e;
+  --light-color: #64bbf9;
+  --dark-color:#252E80
+}
+h2{
+  font-size: 45px;
 }
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--base-color);
   color: white;
 }
+p{
+
+  text-align: justify;
+  text-justify: inter-word;
+
+}
 .firstpage {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+    background: url(/images/1stpage.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .firstpage h1 {
   font-size: 50px;
   text-align: center;
+  color: var(--light-color);
 }
 .firstpage p {
   text-align: justify;
@@ -36,16 +53,30 @@ body {
 }
 
 .secondpage {
-  color: var(--base-color);
+  color: var(--dark-color);
   background-color: white;
   padding-left: -20px;
   padding-right: -20px;
+  padding-bottom: 100px;
+}
+.fifthPage {
+  color: var(--dark-color);
+  background-color: white;
+  padding-left: -20px;
+  padding-right: -20px;
+}
+.fifthPage h2 {
+  font-size: 45px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  color: var(--light-color);
 }
 
 .secondpage h2 {
   font-size: 45px;
   margin-bottom: 0px;
   font-weight: 700;
+  color: var(--light-color);
 }
 .thirdpage h2 {
   font-size: 45px;
@@ -56,6 +87,9 @@ body {
   font-size: 20px;
   margin-bottom: 0px;
 }
+.secondpage img{
+  width: 90px;
+}
 .step {
   font-size: 28px;
   font-weight: 700;
@@ -64,6 +98,17 @@ body {
   left: 5px;
   max-width: 50%;
   margin-bottom: 10px;
+  color: white
+}
+.stepsec {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  left: 5px;
+  max-width: 50%;
+  margin-bottom: 10px;
+  color: var(--dark-color)
 }
 
 .stepIcon1 {
@@ -103,6 +148,7 @@ body {
   right: -15px;
   width: 60px;
   margin-bottom: 15px;
+  padding-top: 20px;
 }
 .steps {
   display: flex;
@@ -116,6 +162,8 @@ body {
 .stepIcon {
   width: 60px;
   margin-bottom: 80px;
+  padding-top: 30px;
+
 }
 
 @media (max-width: 400px) {
@@ -202,6 +250,10 @@ body {
   background-size: cover;
   padding-bottom: 200px;
 }
+.furthpage {
+
+  padding-bottom: 150px;
+}
 .cols {
   display: grid;
   grid-template-columns: repeat(30, 1fr);
@@ -245,3 +297,79 @@ body {
   margin: auto;
   max-width: 70%;
 }
+.fif {
+  font-size: 30px;
+  border-color: #252E80
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  font-weight: 600;
+  color:#252E80;
+  margin: 20px 50px 20px 50px;
+ 
+  
+}
+@media (max-width:1000px){
+  .fif{
+     font-size: 24px;
+  }
+
+.number {
+
+  width: 10px;
+
+}
+}
+.sameh1 {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  border-spacing: 20px;
+}
+.child1 {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+  width: 40%;
+}
+.child2 {
+  display: table-cell; 
+  
+  width: 30%;
+  margin: 0 auto;
+}
+
+.fi {
+  font-size: 30px;
+}
+
+.img5{
+  width:300px
+  margin:0 auto;
+}
+.six1{
+ 
+  text-align: center;
+ 
+  justify-content: space-evenly;
+    background: url(/images/61.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.six2{
+ 
+    text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+    background: url(/images/62.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sixPage p{
+ 
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
