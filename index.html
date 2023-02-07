@@ -76,8 +76,10 @@
                 class="img-fluid d-block number"
                 alt="1"
               />
-              <a href="#" class="btn"
-                ><h3 class="stepsec step1 d-inline-flex">Order Generation</h3></a
+              <a href="#1" class="btn"
+                ><h3 class="stepsec step1 d-inline-flex">
+                  Order Generation
+                </h3></a
               >
               <img
                 src="/images/1.png"
@@ -91,7 +93,7 @@
                 class="img-fluid d-block number"
                 alt="1"
               />
-              <a href="#" class="btn">
+              <a href="#2" class="btn">
                 <h3 class="stepsec step3 d-inline-flex">Bet Sizing</h3></a
               >
               <img
@@ -107,7 +109,7 @@
                 alt="1"
                 class="img-fluid d-block number"
               />
-              <a href="#" class="btn">
+              <a href="#3" class="btn">
                 <h3 class="stepsec step2 d-inline-flex">Order Execution</h3></a
               >
               <img
@@ -116,14 +118,14 @@
                 class="img-fluid d-block stepIcon stepIcon2"
               />
             </div>
-            
+
             <div class="col-sm-3 num" align="center">
               <img
                 src="/images/number-4.png"
                 class="img-fluid d-block number"
                 alt="1"
               />
-              <a href="#" class="btn"
+              <a href="#4" class="btn"
                 ><h3 class="stepsec step4 d-inline-flex">Exit Strategy</h3></a
               >
               <img
@@ -135,7 +137,7 @@
           </div>
         </div>
       </div>
-      <div class="thirdpage pt-5">
+      <div class="thirdpage pt-5" id="1">
         <h2 class="pt-3 ps-4">Order Generation</h2>
         <div class="row">
           <div class="col-sm-6">
@@ -417,7 +419,7 @@
         </div>
       </div>
 
-      <div class="fifthPage pt-5">
+      <div class="fifthPage pt-5" id="2">
         <h2 class="pt-3 ps-4">Bet Sizing</h2>
         <div class="row">
           <div class="col-sm-6">
@@ -432,9 +434,9 @@
                 The size of the order comes from a model that allocates a
                 predesigned risk function based on the investors preferences.
               </p>
-            </div >
+            </div>
             <div class="">
-            <img src="/images/51.png" alt="" class="  img-fluid img5 p-3 " />
+              <img src="/images/51.png" alt="" class="img-fluid img5 p-3" />
             </div>
           </div>
           <div class="col-md-5">
@@ -470,24 +472,74 @@
           </div>
         </div>
       </div>
-      <div class="sixPage">
 
-
-
+      <div class="sixPage" id="3">
+       
+        <h2 class="pt-3 ps-4">Order Execution</h2>
+        <hr
+          class="border-4 opacity-100 ms-3 d-none d-md-block"
+          style="width: 35%"
+        />
+        <hr class="border-4 opacity-100 ms-3 d-md-none" style="width: 70%" />
         <div class="row">
-          <div class="col-sm-7 six1 py-5"> <h2 class="pt-3 ps-4">Order Execution</h2>
+          <div class="col-md-7 six1 py-5">
+           
+            <p class="ps-3 py-5 pe-5">
+              MAHDA has built the execution system according to its own needs.
+              This system connects to the exchange through API and places
+              orders. Currently, it works on Binance, Kocoin, but due to its
+              infrastructure, it can easily be developed and connected to other
+              exchanges. This system has the possibility of executing all the
+              commands generated in the previous section, such as risk-free
+              position, trailing, etc.something
+            </p>
+          </div>
+          <div class="col-sm-5 six2"></div>
+        </div>
+      
+
+      <div class="sevenPage pt-5" id="4">
+        <h2 class="pt-3 ps-4">Exit Strategy</h2>
+        <hr
+          class="border-4 opacity-100 ms-3 d-none d-md-block"
+          style="width: 35%"
+        />
+        <hr class="border-4 opacity-100 ms-3 d-md-none" style="width: 70%" />
         <div class="row">
-          <div class="col-sm-6">
-            <hr class="border-4 opacity-100 ms-3" />
+          <div class="col-md-4 p-5">
+            <div class="row">
+              <div class="col-6"><h2>Hard SL & TP </h2></div>
+              <div class="col-6 pb-5"><img src="/images/71.png" alt="" /></div>
+            </div>
+            <p>
+              According to the history of the coin, the level of volatility of
+              each coin and the maximum amount of acceptable risk, stop loss and
+              take profit are determined.
+            </p>
+          </div>
+          <div class="col-md-4 p-5">
+            <div class="row">
+              <div class="col-6"><h2>Build Risk 
+Free Position </h2></div>
+              <div class="col-6 pb-5"><img src="/images/72.png" alt="" /></div>
+            </div class="p-5">
+            <p>
+             If the take profit level is touched, 50% of the position will be closed and the stop loss will be moved to the entry point (breakeven). 
+            </p>
+          </div>
+
+          <div class="col-md-4 p-5">
+            <div class="row">
+              <div class="col-6"><h2>Trailing
+Stop Loss  </h2></div>
+              <div class="col-6 "><img src="/images/73.png" alt="" /></div>
+            </div class="mt-3">
+            <p>
+             Our artificial intelligence model trails stop loss based on the trend of the coin and the market. In main trends, the trailing stop moves with the market and prevents early exit from the position.
+            </p>
           </div>
         </div>
-       
-
-        <p class="p-3 ">MAHDA has built the execution system according to its own needs. This system connects to the exchange through API and places orders. Currently, it works on Binance, Kocoin, but due to its infrastructure, it can easily be developed and connected to other exchanges. This system has the possibility of executing all the commands generated in the previous section, such as risk-free position, trailing, etc.something</p>
-         
-        
       </div>
-       <div class="col-sm-5 six2"></div>
     </div>
   </body>
 </html>
