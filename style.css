@@ -64,20 +64,17 @@ p {
   padding-right: -20px;
 }
 .fifthPage h2 {
-  font-size: 45px;
   margin-bottom: 0px;
   font-weight: 700;
   color: var(--light-color);
 }
 
 .secondpage h2 {
-  font-size: 45px;
   margin-bottom: 0px;
   font-weight: 700;
   color: var(--light-color);
 }
 .thirdpage h2 {
-  font-size: 45px;
   margin-bottom: 0px;
   font-weight: 700;
 }
@@ -85,9 +82,16 @@ p {
   font-size: 20px;
   margin-bottom: 0px;
 }
+
 .secondpage img {
-  width: 90px;
+  width: 80px;
 }
+@media (max-width: 700) {
+  .secondpage img {
+    width: 40px;
+  }
+}
+
 .step {
   font-size: 28px;
   font-weight: 700;
@@ -169,16 +173,13 @@ p {
     margin-bottom: 0px;
     text-align: left;
   }
-  .secondpage h2 {
+
+  h2 {
     font-size: 24px;
 
     font-weight: 700;
   }
-  .thirdpage h2 {
-    font-size: 24px;
 
-    font-weight: 700;
-  }
   .firstpage p {
     padding-left: 27px;
   }
@@ -312,6 +313,7 @@ p {
     width: 10px;
   }
 }
+
 .sameh1 {
   display: table; /* Make the container element behave like a table */
   width: 100%; /* Set full-width to expand the whole page */
@@ -361,11 +363,10 @@ p {
   line-height: 200%;
 }
 .sixPage h2 {
-  font-size: 36px;
   text-align: left;
+  color: #bde6fd;
 }
 .sevenPage h2 {
-  font-size: 36px;
   text-align: left;
   color: #bde6fd;
 }
@@ -388,4 +389,67 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.who {
+  background: url(/images/Team.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #252e80;
+
+  background-position: 0% 10%;
+  height: 300px;
+}
+.about {
+  font-family: "PT Sans", sans-serif;
+}
+.about h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+.about h2 {
+  font-size: 67px;
+  font-weight: 800;
+}
+.about p {
+  text-align: center;
+  font-weight: 200;
+
+  font-size: 32px;
+  padding-top: 30px;
+}
+@media (max-width: 800px) {
+  .who {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .about h1 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+  .who {
+    height: 200px;
+  }
+}
+
+.team {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.team img {
+  border-radius: 10%;
+  height: 180px;
+  object-fit: cover;
+  width: 180px;
+  margin: 0 auto;
+}
+.people {
+  justify-content: center;
+}
+.team p {
+  font-size: 18px;
+  padding-top: 0px;
+  padding-bottom: 30px;
 }
