@@ -532,3 +532,36 @@ p {
     font-size: 8px;
   }
 }
+.fa-brands {
+  color: white;
+  background-color: darkblue;
+}
+.contact h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.con {
+  font-size: 40px;
+  font-weight: 500;
+}
+.chb {
+  color: #64bbf9;
+}
+.ans {
+  font-size: 32px;
+}
+.contact a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+.i1 {
+  position: relative;
+  top: 7px;
+  color: white;
+  background-color: #252e80;
+}
+.fir {
+  position: relative;
+  right: 3px;
+}
