@@ -453,3 +453,82 @@ p {
   padding-top: 0px;
   padding-bottom: 30px;
 }
+.fact {
+  background-color: white;
+  color: #757575;
+}
+.mf1 {
+  background-color: var(--base-color);
+  color: white;
+  padding-left: 30px;
+}
+.logo {
+  max-width: 130px;
+  margin: 0 auto;
+}
+.devider {
+  border-color: var(--base-color);
+}
+.fact h2 {
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+}
+.fact p {
+  font-weight: 600;
+  line-height: 2;
+  font-size: 18px;
+}
+.fact h1 {
+  font-size: 46px;
+}
+.fact h3 {
+  font-weight: 400;
+}
+.chdark {
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .fact h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: 450;
+    padding-bottom: 0;
+  }
+  .fact p {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .fact h1 {
+    font-size: 30px;
+  }
+  .fact h3 {
+    font-weight: 300;
+  }
+  .pn {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .chdark {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .fact h2 {
+    font-size: 18px;
+    text-align: left;
+  }
+  .fact p {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .pn {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 8px;
+  }
+}
