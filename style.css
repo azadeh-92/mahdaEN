@@ -24,7 +24,7 @@ p {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  background: url(/images/1stpage.png) no-repeat center center fixed;
+  background: url(/images/new.eps) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -564,4 +564,25 @@ p {
 .fir {
   position: relative;
   right: 3px;
+}
+.navLogo {
+  max-height: 40px;
+  position: relative;
+  top: -5px;
+  right: 10px;
+}
+.nav-link {
+  font-size: 18px;
+}
+@media (max-width: 800px) {
+  .navLogo {
+    max-height: 30px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+}
+.navbar {
+  background-color: rgba(37, 46, 128, 0.85);
+  padding: 0;
 }
