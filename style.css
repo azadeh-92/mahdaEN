@@ -110,7 +110,12 @@ p {
   left: 5px;
   max-width: 50%;
   margin-bottom: 10px;
-  color: var(--dark-color);
+}
+.stepsec a:hover {
+  color: #64bbf9 !important;
+}
+.btn a:hover {
+  color: #64bbf9 !important;
 }
 
 .stepIcon1 {
@@ -161,6 +166,7 @@ p {
   padding-right: 20px;
   padding-left: 20px;
 }
+
 .stepIcon {
   width: 60px;
   margin-bottom: 80px;
@@ -574,6 +580,17 @@ p {
 .nav-link {
   font-size: 18px;
 }
+
+.navbar {
+  background-color: rgba(37, 46, 128, 0.85);
+  padding: 0;
+}
+.container-fluid {
+  justify-content: center !important;
+}
+.navbar-collapse {
+  justify-content: center !important;
+}
 @media (max-width: 800px) {
   .navLogo {
     max-height: 30px;
@@ -581,8 +598,10 @@ p {
   .nav-link {
     font-size: 16px;
   }
-}
-.navbar {
-  background-color: rgba(37, 46, 128, 0.85);
-  padding: 0;
+  .container-fluid {
+    justify-content: space-between !important;
+  }
+  .navbar-collapse {
+    justify-content: space-between !important;
+  }
 }
