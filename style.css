@@ -464,8 +464,8 @@ p {
   color: #757575;
 }
 .mf1 {
-  background-color: var(--base-color);
-  color: white;
+  background-color: #d6e1fe;
+  color: var(--dark-color);
   padding-left: 30px;
 }
 .logo {
@@ -591,22 +591,9 @@ p {
 .navbar-collapse {
   justify-content: center !important;
 }
-@media (max-width: 800px) {
-  .navLogo {
-    max-height: 30px;
-  }
-  .nav-link {
-    font-size: 16px;
-  }
-  .container-fluid {
-    justify-content: space-between !important;
-  }
-  .navbar-collapse {
-    justify-content: space-between !important;
-  }
-}
+
 footer {
-  background-color: #bde6fc;
+  background-color: #d6e1fe;
   color: #252e80;
 }
 .foottext {
@@ -633,18 +620,44 @@ footer a {
   text-decoration: none;
 
   font-size: 24px;
-  background-color: #bde6fc;
+  background-color: #d6e1fe;
   color: #00183e;
   padding: 4px;
 }
 
 footer .fa-brands {
-  background-color: #bde6fc;
+  background-color: #d6e1fe;
   color: #00183e;
   padding: 8px;
   border-radius: 50%;
 }
 footer .fa-brands:hover {
   background-color: #00183e;
-  color: #bde6fc;
+  color: #d6e1fe;
+}
+@media (max-width: 800px) {
+  .navLogo {
+    max-height: 30px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .container-fluid {
+    justify-content: space-between !important;
+  }
+  .navbar-collapse {
+    justify-content: space-between !important;
+  }
+  .fot1 {
+    font-size: 18px;
+  }
+  .navbar {
+    padding-top: 0;
+  }
+  .contact h1 {
+    font-size: 40px;
+  }
+  .con {
+    font-size: 28px;
+  }
 }
